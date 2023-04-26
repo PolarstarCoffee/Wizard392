@@ -7,7 +7,7 @@ public class BeatManager : MonoBehaviour
 {
     [SerializeField] private float bpm; //BPM = 120
     [SerializeField] private AudioSource _aSource; //music 
-    [SerializeField] private Intervals[] intervalz; //interval array 
+    [SerializeField] private Intervals[] intervalz; //interval array                                               
 
 
     private void Update()
@@ -45,6 +45,6 @@ public class BeatManager : MonoBehaviour
     }
 
 
- 
+
 
 }
