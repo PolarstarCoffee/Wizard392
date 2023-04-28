@@ -1483,9 +1483,9 @@ MonoBehaviour:
     trigger:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1006537931}
-          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-          m_MethodName: Move
+        - m_Target: {fileID: 1006537932}
+          m_TargetAssemblyTypeName: pulse, Assembly-CSharp
+          m_MethodName: Pulse
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6170,6 +6170,21 @@ MonoBehaviour:
   Heart: {fileID: 3259876}
   moveSpeed: 3
   gameManager: {fileID: 1607063006}
+--- !u!114 &1006537932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006537926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7adfd8d6e7b00c84facba90e72258f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useBeat: 1
+  pulseSize: 1.5
+  returnSpeed: 5
 --- !u!1001 &1006701587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8222,7 +8237,7 @@ PrefabInstance:
     - target: {fileID: 3409973953835352491, guid: 5e8a2a9ed0391b641b3f791ad2fce447,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -27.26173
+      value: -27.76
       objectReference: {fileID: 0}
     - target: {fileID: 3409973953835352491, guid: 5e8a2a9ed0391b641b3f791ad2fce447,
         type: 3}
@@ -10815,11 +10830,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a5deb2b2fcf8d41478ce0b5800757c33, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8f7b0be406c635c4897f0e27f3624fc4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
