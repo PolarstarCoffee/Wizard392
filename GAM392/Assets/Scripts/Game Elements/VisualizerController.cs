@@ -10,7 +10,7 @@ public class VisualizerController : MonoBehaviour
 
     public GameObject frequencyBar;
 
-    AudioSource source;
+    public AudioSource source;
 
     float[] sampleArray = new float[64];
     GameObject[] objectArray = new GameObject[64];

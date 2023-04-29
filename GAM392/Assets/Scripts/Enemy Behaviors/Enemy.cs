@@ -21,16 +21,16 @@ public class Enemy : MonoBehaviour
 
     public void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, Heart.transform.position, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, Heart.transform.localPosition, moveSpeed * Time.deltaTime);
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Shield")
         {
             Debug.Log("hit");
             Destroy(gameObject);
         }
-        if (collision.gameObject.tag == "Heart")
+        if (collision.gameObject.tag == "Player")
         {
           FindObjectOfType<GameManager>().EndGame();
            
