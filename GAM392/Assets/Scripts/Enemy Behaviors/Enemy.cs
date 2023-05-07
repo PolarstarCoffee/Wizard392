@@ -8,11 +8,13 @@ public class Enemy : MonoBehaviour
 {
     //GameObject enemy is moving towards
     public GameObject Heart;
-    [SerializeField]
-    private float moveSpeed = 1f;
     public GameManager gameManager;
+    public float beatTempo;
 
-
+    private void Start()
+    {
+        beatTempo = beatTempo / 60f;
+    }
 
     private void Update()
     {
@@ -21,7 +23,7 @@ public class Enemy : MonoBehaviour
 
     public void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, Heart.transform.localPosition, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, Heart.transform.localPosition, beatTempo * Time.deltaTime);
     }
     private void OnCollisionStay(Collision collision)
     {
