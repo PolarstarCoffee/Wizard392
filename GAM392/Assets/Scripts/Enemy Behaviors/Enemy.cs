@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Shield")
         {
             Debug.Log("hit");
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
         if (collision.gameObject.tag == "Player")
         {

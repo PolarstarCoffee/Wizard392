@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5914775470538630353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.4, y: 14.7, z: -37.64}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -50,7 +50,7 @@ MonoBehaviour:
   sampleSize: 128
   frequencyBar: {fileID: 4629925292910847205, guid: 5069c33b512a50b4a8c4a523cd96c191,
     type: 3}
-  source: {fileID: 0}
+  source: {fileID: 7213486447090807653, guid: d40aaf136715594409b30cdd58e68fe3, type: 3}
 --- !u!114 &5914775470538630356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,4 +63,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17fce0956af92243845d834c29ceedc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 50
+  sensitivity: 150
