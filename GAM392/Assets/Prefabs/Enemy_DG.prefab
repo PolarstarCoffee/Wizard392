@@ -104,7 +104,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &1949913500337284467
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,8 +121,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!54 &2037061933
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,6 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e2d3de65188c284997ab42e3f15a107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Heart: {fileID: 0}
-  gameManager: {fileID: 0}
+  Heart: {fileID: 6445056374682847472, guid: e27f16a51b8e8684e88d91df40e1aede, type: 3}
+  gameManager: {fileID: 3247659721007767814, guid: a62ac46633baee741a4e0008b017acc5,
+    type: 3}
   beatTempo: 120

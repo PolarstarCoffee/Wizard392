@@ -129,8 +129,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1892
-  serializedVersion: 10
+  m_Name: pb_Mesh-41984
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -277,6 +277,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -380,6 +381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 25366646}
+  - component: {fileID: 25366647}
   m_Layer: 0
   m_Name: rightSpawn
   m_TagString: Untagged
@@ -394,22 +396,40 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25366645}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0068885344, w: 0.99997634}
-  m_LocalPosition: {x: 28.68, y: -5.2285423, z: 10.28}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 29.156256, y: -2.8285427, z: 11.714184}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1793099992}
-  m_RootOrder: 1
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25366647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25366645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b7a394b402a1f4393101f1b9e2620e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 0}
+  enemyPrefab: {fileID: 1949913500337284466, guid: 7e11f8a53559ba44198def25f988e44d,
+    type: 3}
+  spawnTime: 1
+  spawnDelay: 2
 --- !u!43 &31787838
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1558
-  serializedVersion: 10
+  m_Name: pb_Mesh-42414
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -556,6 +576,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -572,8 +593,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2024
-  serializedVersion: 10
+  m_Name: pb_Mesh-42708
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -720,6 +741,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -736,8 +758,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1850
-  serializedVersion: 10
+  m_Name: pb_Mesh-41942
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -884,6 +906,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -900,8 +923,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1934
-  serializedVersion: 10
+  m_Name: pb_Mesh-42026
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1048,6 +1071,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 13.5, y: 0.100000024, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -1064,8 +1088,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1948
-  serializedVersion: 10
+  m_Name: pb_Mesh-42040
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1212,6 +1236,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -1322,8 +1347,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1680
-  serializedVersion: 10
+  m_Name: pb_Mesh-42056
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1470,6 +1495,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -1486,8 +1512,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1708
-  serializedVersion: 10
+  m_Name: pb_Mesh-42084
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1634,6 +1660,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -1807,8 +1834,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1356
-  serializedVersion: 10
+  m_Name: pb_Mesh-42324
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1955,6 +1982,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2229,8 +2257,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1572
-  serializedVersion: 10
+  m_Name: pb_Mesh-42428
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2377,6 +2405,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2393,8 +2422,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1778
-  serializedVersion: 10
+  m_Name: pb_Mesh-42154
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2541,6 +2570,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2557,8 +2587,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2066
-  serializedVersion: 10
+  m_Name: pb_Mesh-42750
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2705,6 +2735,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2721,8 +2752,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1722
-  serializedVersion: 10
+  m_Name: pb_Mesh-42098
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2869,6 +2900,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2885,8 +2917,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1764
-  serializedVersion: 10
+  m_Name: pb_Mesh-42140
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3033,6 +3065,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3049,8 +3082,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1506
-  serializedVersion: 10
+  m_Name: pb_Mesh-42658
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3197,6 +3230,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3297,8 +3331,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1736
-  serializedVersion: 10
+  m_Name: pb_Mesh-42112
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3445,6 +3479,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3461,8 +3496,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1544
-  serializedVersion: 10
+  m_Name: pb_Mesh-42400
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3609,6 +3644,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3625,8 +3661,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2122
-  serializedVersion: 10
+  m_Name: pb_Mesh-42806
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3773,6 +3809,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3883,8 +3920,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1286
-  serializedVersion: 10
+  m_Name: pb_Mesh-42254
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4031,6 +4068,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -4047,8 +4085,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2094
-  serializedVersion: 10
+  m_Name: pb_Mesh-42778
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4195,6 +4233,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -4210,6 +4249,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 346161342}
     m_Modifications:
     - target: {fileID: 592662621657375309, guid: 6a0dbe3d784424b45b7f14405c88fb2f,
@@ -4473,6 +4513,7 @@ PrefabInstance:
       value: 574
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0dbe3d784424b45b7f14405c88fb2f, type: 3}
 --- !u!43 &790356717
 Mesh:
@@ -4480,8 +4521,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1300
-  serializedVersion: 10
+  m_Name: pb_Mesh-42268
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4628,6 +4669,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -4644,8 +4686,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1822
-  serializedVersion: 10
+  m_Name: pb_Mesh-41914
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4792,6 +4834,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -4808,8 +4851,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1314
-  serializedVersion: 10
+  m_Name: pb_Mesh-42282
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4956,6 +4999,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -4972,8 +5016,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1806
-  serializedVersion: 10
+  m_Name: pb_Mesh-42182
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5120,6 +5164,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -5136,8 +5181,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1614
-  serializedVersion: 10
+  m_Name: pb_Mesh-42470
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5284,6 +5329,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -5299,6 +5345,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 49748045fea7c134483afa313b66e6d8,
@@ -5382,12 +5429,14 @@ PrefabInstance:
       value: GM_Speakers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 49748045fea7c134483afa313b66e6d8, type: 3}
 --- !u!1001 &862297128
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 346161342}
     m_Modifications:
     - target: {fileID: 592662621657375309, guid: 6a0dbe3d784424b45b7f14405c88fb2f,
@@ -5651,6 +5700,7 @@ PrefabInstance:
       value: 574
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0dbe3d784424b45b7f14405c88fb2f, type: 3}
 --- !u!4 &866814894 stripped
 Transform:
@@ -5748,8 +5798,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1694
-  serializedVersion: 10
+  m_Name: pb_Mesh-42070
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5896,6 +5946,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -5912,8 +5963,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1492
-  serializedVersion: 10
+  m_Name: pb_Mesh-42644
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6060,6 +6111,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 13.5, y: 0.100000024, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6076,8 +6128,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2080
-  serializedVersion: 10
+  m_Name: pb_Mesh-42764
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6224,6 +6276,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6285,8 +6338,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1342
-  serializedVersion: 10
+  m_Name: pb_Mesh-42310
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6433,6 +6486,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 13.5, y: 0.100000024, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6449,8 +6503,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1478
-  serializedVersion: 10
+  m_Name: pb_Mesh-42630
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6597,6 +6651,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6613,8 +6668,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2150
-  serializedVersion: 10
+  m_Name: pb_Mesh-42834
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6761,6 +6816,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6777,8 +6833,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2052
-  serializedVersion: 10
+  m_Name: pb_Mesh-42736
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6925,6 +6981,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6940,6 +6997,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5914775470538630353, guid: 52b9179d621643b4cb430096351b3f2a,
@@ -7008,6 +7066,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 52b9179d621643b4cb430096351b3f2a, type: 3}
 --- !u!43 &1112830454
 Mesh:
@@ -7015,8 +7074,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1656
-  serializedVersion: 10
+  m_Name: pb_Mesh-42512
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7163,6 +7222,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -7279,8 +7339,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1628
-  serializedVersion: 10
+  m_Name: pb_Mesh-42484
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7427,6 +7487,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -7443,8 +7504,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1244
-  serializedVersion: 10
+  m_Name: pb_Mesh-42212
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7591,6 +7652,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -7701,8 +7763,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1450
-  serializedVersion: 10
+  m_Name: pb_Mesh-42602
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7849,6 +7911,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -7865,8 +7928,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2108
-  serializedVersion: 10
+  m_Name: pb_Mesh-42792
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8013,6 +8076,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8029,8 +8093,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2136
-  serializedVersion: 10
+  m_Name: pb_Mesh-42820
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8177,6 +8241,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 13.5, y: 0.100000024, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8193,8 +8258,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1600
-  serializedVersion: 10
+  m_Name: pb_Mesh-42456
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8341,6 +8406,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8357,8 +8423,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1258
-  serializedVersion: 10
+  m_Name: pb_Mesh-42226
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8505,6 +8571,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8554,8 +8621,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1230
-  serializedVersion: 10
+  m_Name: pb_Mesh-42198
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8702,6 +8769,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8718,8 +8786,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1380
-  serializedVersion: 10
+  m_Name: pb_Mesh-42532
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8866,6 +8934,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8979,6 +9048,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 346161342}
     m_Modifications:
     - target: {fileID: 592662621657375309, guid: 6a0dbe3d784424b45b7f14405c88fb2f,
@@ -9242,12 +9312,14 @@ PrefabInstance:
       value: 577
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0dbe3d784424b45b7f14405c88fb2f, type: 3}
 --- !u!1001 &1402731022
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1006537931, guid: 5e8a2a9ed0391b641b3f791ad2fce447, type: 3}
@@ -9258,6 +9330,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1607063006}
+    - target: {fileID: 1006537932, guid: 5e8a2a9ed0391b641b3f791ad2fce447, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3409973953835352491, guid: 5e8a2a9ed0391b641b3f791ad2fce447,
         type: 3}
       propertyPath: m_RootOrder
@@ -9318,7 +9394,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_VP
       objectReference: {fileID: 0}
+    - target: {fileID: 3409973953835352495, guid: 5e8a2a9ed0391b641b3f791ad2fce447,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8a2a9ed0391b641b3f791ad2fce447, type: 3}
 --- !u!43 &1440814553
 Mesh:
@@ -9326,8 +9408,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1422
-  serializedVersion: 10
+  m_Name: pb_Mesh-42574
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9474,6 +9556,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -9490,8 +9573,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1878
-  serializedVersion: 10
+  m_Name: pb_Mesh-41970
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9638,6 +9721,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -9660,8 +9744,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1642
-  serializedVersion: 10
+  m_Name: pb_Mesh-42498
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9808,6 +9892,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 13.5, y: 0.100000024, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -9824,8 +9909,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1272
-  serializedVersion: 10
+  m_Name: pb_Mesh-42240
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9972,6 +10057,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -10008,7 +10094,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1547009519
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10025,8 +10111,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1547009520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10100,8 +10185,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1408
-  serializedVersion: 10
+  m_Name: pb_Mesh-42560
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -10248,6 +10333,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -10263,6 +10349,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 346161342}
     m_Modifications:
     - target: {fileID: 592662621657375309, guid: 6a0dbe3d784424b45b7f14405c88fb2f,
@@ -10526,12 +10613,14 @@ PrefabInstance:
       value: 577
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0dbe3d784424b45b7f14405c88fb2f, type: 3}
 --- !u!1001 &1590453828
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 346161342}
     m_Modifications:
     - target: {fileID: 592662621657375309, guid: 6a0dbe3d784424b45b7f14405c88fb2f,
@@ -10795,6 +10884,7 @@ PrefabInstance:
       value: 577
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0dbe3d784424b45b7f14405c88fb2f, type: 3}
 --- !u!1 &1598650548
 GameObject:
@@ -10890,45 +10980,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &1607063004
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1607063005}
-  - component: {fileID: 1607063006}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1607063005
+--- !u!4 &1607063005 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3247659721876501720}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607063004}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5343196, y: 4.3486595, z: -14.992815}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 307343964}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1607063006
+--- !u!114 &1607063006 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3247659721007767814, guid: a62ac46633baee741a4e0008b017acc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3247659721876501720}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607063004}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf42f3beaf4d15f418ce64d7b640da56, type: 3}
@@ -10946,8 +11010,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1864
-  serializedVersion: 10
+  m_Name: pb_Mesh-41956
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11094,6 +11158,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11110,8 +11175,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1920
-  serializedVersion: 10
+  m_Name: pb_Mesh-42012
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11258,6 +11323,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11274,8 +11340,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1328
-  serializedVersion: 10
+  m_Name: pb_Mesh-42296
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11422,6 +11488,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11438,8 +11505,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1750
-  serializedVersion: 10
+  m_Name: pb_Mesh-42126
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11586,6 +11653,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11602,8 +11670,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1436
-  serializedVersion: 10
+  m_Name: pb_Mesh-42588
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11750,6 +11818,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11883,8 +11952,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1394
-  serializedVersion: 10
+  m_Name: pb_Mesh-42546
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12031,6 +12100,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -12047,8 +12117,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1464
-  serializedVersion: 10
+  m_Name: pb_Mesh-42616
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12195,6 +12265,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -12210,6 +12281,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1572954163476578052, guid: 0438d07fe5601b44984687e024fe2f6f,
@@ -12293,6 +12365,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0438d07fe5601b44984687e024fe2f6f, type: 3}
 --- !u!1 &1895930975
 GameObject:
@@ -12394,8 +12467,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1586
-  serializedVersion: 10
+  m_Name: pb_Mesh-42442
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12542,6 +12615,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -12647,6 +12721,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2037061932, guid: 7e11f8a53559ba44198def25f988e44d, type: 3}
@@ -12661,6 +12736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_DG
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949913500337284466, guid: 7e11f8a53559ba44198def25f988e44d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1949913500337284478, guid: 7e11f8a53559ba44198def25f988e44d,
         type: 3}
@@ -12718,12 +12798,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e11f8a53559ba44198def25f988e44d, type: 3}
 --- !u!1001 &1952246005
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 711db9bd3f33a8f40ba2ea594dff5bfe,
@@ -12807,12 +12889,14 @@ PrefabInstance:
       value: Stage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 711db9bd3f33a8f40ba2ea594dff5bfe, type: 3}
 --- !u!1001 &1971406577
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 49748045fea7c134483afa313b66e6d8,
@@ -12896,6 +12980,7 @@ PrefabInstance:
       value: GM_Speakers (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 49748045fea7c134483afa313b66e6d8, type: 3}
 --- !u!850595691 &1980894745
 LightingSettings:
@@ -12904,7 +12989,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 4
+  serializedVersion: 5
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
@@ -12944,7 +13029,7 @@ LightingSettings:
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 2
   m_PVRMinBounces: 1
-  m_PVREnvironmentMIS: 1
+  m_PVREnvironmentImportanceSampling: 1
   m_PVRFilteringMode: 1
   m_PVRDenoiserTypeDirect: 1
   m_PVRDenoiserTypeIndirect: 1
@@ -12959,14 +13044,15 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
+  m_NumRaysToShootPerTexel: -1
 --- !u!43 &1985125597
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1906
-  serializedVersion: 10
+  m_Name: pb_Mesh-41998
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13113,6 +13199,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -13148,7 +13235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986486479}
   m_LocalRotation: {x: -0, y: -0, z: -0.0068885344, w: 0.99997634}
-  m_LocalPosition: {x: -18.373745, y: -4.6085415, z: 8.96}
+  m_LocalPosition: {x: -18.364, y: -3.911, z: 8.96}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13167,7 +13254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32b7a394b402a1f4393101f1b9e2620e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
+  spawnPoints:
+  - {fileID: 0}
   enemyPrefab: {fileID: 3409973953835352495, guid: 5e8a2a9ed0391b641b3f791ad2fce447,
     type: 3}
   spawnTime: 1
@@ -13178,8 +13266,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2038
-  serializedVersion: 10
+  m_Name: pb_Mesh-42722
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13326,6 +13414,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -13342,8 +13431,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1836
-  serializedVersion: 10
+  m_Name: pb_Mesh-41928
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13490,6 +13579,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -13600,8 +13690,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1792
-  serializedVersion: 10
+  m_Name: pb_Mesh-42168
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13748,6 +13838,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 13.5, y: 0.100000024, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -13764,8 +13855,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1530
-  serializedVersion: 10
+  m_Name: pb_Mesh-42386
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13912,6 +14003,7 @@ Mesh:
     m_Center: {x: 0.34043884, y: 1.4996481, z: -0.3372612}
     m_Extent: {x: 0.3, y: 1.5, z: 0.3}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -14021,6 +14113,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2500240005543442178, guid: 566f7d4fc43afba49b71140ab05273e2,
@@ -14104,12 +14197,85 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 566f7d4fc43afba49b71140ab05273e2, type: 3}
+--- !u!1001 &3247659721876501720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 307343964}
+    m_Modifications:
+    - target: {fileID: 3247659721007767812, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5343196
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.3486595
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.992815
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247659721007767813, guid: a62ac46633baee741a4e0008b017acc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: a62ac46633baee741a4e0008b017acc5, type: 3}
 --- !u!1001 &3651215252923169969
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6445056374682847469, guid: e27f16a51b8e8684e88d91df40e1aede,
@@ -14173,12 +14339,14 @@ PrefabInstance:
       value: Player_Wiz
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e27f16a51b8e8684e88d91df40e1aede, type: 3}
 --- !u!1001 &4811907292016204540
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 346161342}
     m_Modifications:
     - target: {fileID: 592662621657375309, guid: 6a0dbe3d784424b45b7f14405c88fb2f,
@@ -14442,12 +14610,14 @@ PrefabInstance:
       value: 571
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a0dbe3d784424b45b7f14405c88fb2f, type: 3}
 --- !u!1001 &7213486445184092087
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7213486447090807654, guid: d40aaf136715594409b30cdd58e68fe3,
@@ -14511,6 +14681,7 @@ PrefabInstance:
       value: protoBeat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d40aaf136715594409b30cdd58e68fe3, type: 3}
 --- !u!1 &7771744341876257857 stripped
 GameObject:

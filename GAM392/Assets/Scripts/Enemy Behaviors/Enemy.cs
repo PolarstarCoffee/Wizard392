@@ -10,20 +10,17 @@ public class Enemy : MonoBehaviour
     public GameObject Heart;
     public GameManager gameManager;
     public float beatTempo;
-
     private void Start()
     {
         beatTempo = beatTempo / 60f;
     }
-
     private void Update()
     {
         Move();
     }
-
     public void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, Heart.transform.localPosition, beatTempo * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, Heart.transform.position, beatTempo * Time.deltaTime);
     }
     private void OnCollisionStay(Collision collision)
     {
@@ -35,10 +32,6 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
           FindObjectOfType<GameManager>().EndGame();
-           
         }
     }
-
-
-
 }

@@ -7,7 +7,7 @@ public class EnemySpawn : MonoBehaviour
 
     public Transform[] spawnPoints;
     public GameObject enemyPrefab; //enemy prefab 
-    public float spawnTime;
+    public float spawnTime; 
     public float spawnDelay;
     // Start is called before the first frame update
     void Start()
