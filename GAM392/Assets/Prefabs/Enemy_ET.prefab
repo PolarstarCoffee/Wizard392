@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 1572954163476578055}
   - component: {fileID: 1572954163476578054}
   - component: {fileID: 1572954163476578053}
+  - component: {fileID: -8754838840169219918}
+  - component: {fileID: 5083141289235716282}
+  - component: {fileID: 6319591334225895704}
   m_Layer: 0
   m_Name: Enemy_ET
   m_TagString: Untagged
@@ -28,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1572954163476578052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.78, y: 7.01, z: -14.04}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -45,8 +48,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.6109924, y: 9.276302, z: 1}
+  m_Center: {x: 0.13457426, y: -0.2807916, z: 0}
 --- !u!212 &1572954163476578054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -120,3 +123,50 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!54 &-8754838840169219918
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572954163476578052}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5083141289235716282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572954163476578052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7adfd8d6e7b00c84facba90e72258f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useBeat: 1
+  pulseSize: 0.8
+  returnSpeed: 5
+--- !u!114 &6319591334225895704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572954163476578052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2d3de65188c284997ab42e3f15a107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Heart: {fileID: 6445056374682847472, guid: e27f16a51b8e8684e88d91df40e1aede, type: 3}
+  gameManager: {fileID: 3247659721007767814, guid: a62ac46633baee741a4e0008b017acc5,
+    type: 3}
+  beatTempo: 100
