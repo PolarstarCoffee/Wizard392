@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelDesign_Demo.unity
     guid: 5c2ec0b848a41a74e9c11c91a294675f
   - enabled: 1
-    path: Assets/Scenes/UI.unity
+    path: Assets/Scenes/Title_screen.unity
     guid: b0edde82b70298846a4df77db14daee1
   - enabled: 1
     path: Assets/Scenes/Options.unity
