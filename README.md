@@ -1,2 +1,2 @@
 # Wizard392
-FUCK
+GAM392 
