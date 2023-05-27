@@ -10,9 +10,11 @@ public class Enemy : MonoBehaviour
     public GameObject Heart;
     public GameManager gameManager;
     public float beatTempo;
+    public AudioSource deathSound;
     private void Start()
     {
         beatTempo = beatTempo / 60f;
+        deathSound = GetComponent<AudioSource>();
     }
     private void Update()
     {
@@ -27,11 +29,24 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Shield")
         {
             Debug.Log("hit");
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            Destroy(gameObject);
+           
         }
         if (collision.gameObject.tag == "Player")
         {
           FindObjectOfType<GameManager>().EndGame();
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Shield")
+        {
+            deathSound.Play();
+
+        }
+    }
+
+   
 }
