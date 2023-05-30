@@ -18,6 +18,6 @@ public class ShieldCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
+        FindObjectOfType<AudioManager>().Play("Hit");
     }
 }

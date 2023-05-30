@@ -30,8 +30,9 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("hit");
             //gameObject.SetActive(false);
-            Destroy(gameObject);
            
+            Destroy(gameObject);
+            
         }
         if (collision.gameObject.tag == "Player")
         {
@@ -43,8 +44,8 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Shield")
         {
-            deathSound.Play();
-
+             FindObjectOfType<AudioManager>().Play("Hit");
+             deathSound.Play();
         }
     }
 
