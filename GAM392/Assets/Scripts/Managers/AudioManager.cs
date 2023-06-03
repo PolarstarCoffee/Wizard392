@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour {
 
-    public Sound[] sounds; 
+    public Sound[] sounds; //Array of sounds
 
-    public static AudioManager instance;  
+    public static AudioManager instance;  //Create a static instance of this manager so it persists between scenes 
 
     // Start is called before the first frame update
     void Awake() {
 
        
-        foreach (Sound s in sounds)
+        foreach (Sound s in sounds) //iteration through sound array
         {
-            s.source = gameObject.AddComponent<AudioSource>(); 
+            s.source = gameObject.AddComponent<AudioSource>(); //add audio to gameobject
             s.source.clip = s.clip;
 
             s.source.volume = s.volume; 
@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour {
         
     }
 
-    public void Play (string name)
+    public void Play (string name) //sound playback functionality 
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
@@ -32,7 +32,7 @@ public class AudioManager : MonoBehaviour {
             Debug.LogWarning("Sound: " + name + " not found!");
             return;  
         }
-        s.source.Play();
+        s.source.Play(); //Plays audio
        
     }
 }
