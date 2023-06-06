@@ -11,8 +11,11 @@ public class Enemy : MonoBehaviour
     public GameManager gameManager;
     public float beatTempo;
     public AudioSource deathSound;
+    private int _score;
+
     private void Start()
     {
+       
         beatTempo = beatTempo / 60f;
         deathSound = GetComponent<AudioSource>();
     }
@@ -30,8 +33,9 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("hit");
             //gameObject.SetActive(false);
-           
+            FindObjectOfType<UI_Score>().updateScore();
             Destroy(gameObject);
+            
             
         }
         if (collision.gameObject.tag == "Player")
@@ -48,6 +52,6 @@ public class Enemy : MonoBehaviour
              deathSound.Play();
         }
     }
-
+    
    
 }

@@ -6,18 +6,22 @@ using TMPro;
 
 public class UI_Score : MonoBehaviour
 {
+    [SerializeField]
+    private TextMeshProUGUI score_Text;
     //Update score by adding increment method in Enemy class to 
-    private int score; //score value reference
+    //score value reference
+  
+    public int score;
 
-    private SpriteRenderer scoreSprite; //score sprite reference 
-    void Start()
+    public void Update()
     {
-        score = 0; //initalize score to 1
+        score_Text.text = score.ToString(); 
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void updateScore()
     {
-        
+        Debug.Log(score);
+        score++;
     }
 }
