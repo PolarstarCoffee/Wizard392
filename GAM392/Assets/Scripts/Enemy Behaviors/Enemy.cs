@@ -33,10 +33,11 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("hit");
             //gameObject.SetActive(false);
-            FindObjectOfType<UI_Score>().updateScore();
+        
             Destroy(gameObject);
-            
-            
+            FindObjectOfType<UI_Score>().updateScore();
+
+
         }
         if (collision.gameObject.tag == "Player")
         {
