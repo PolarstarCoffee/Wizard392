@@ -8,7 +8,7 @@ public class Sound {
 
     public AudioClip clip; 
 
-    [Range(9f, 1f)]
+    [Range(9f, -5f)]
     public float volume; 
     [Range(.1f, 3f)]
     public float pitch; 

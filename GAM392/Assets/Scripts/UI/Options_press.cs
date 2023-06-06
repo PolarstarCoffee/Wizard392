@@ -7,6 +7,7 @@ public class Options_press : MonoBehaviour
 {
     void OnMouseDown()
     {
+        FindObjectOfType<AudioManager>().Play("op");
         SceneManager.LoadScene("Options");
     }
 }

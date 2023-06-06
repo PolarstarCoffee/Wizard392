@@ -15,7 +15,7 @@ public class pulse : MonoBehaviour
         startSize = transform.localScale;
         if (useBeat)
         {
-            StartCoroutine(testBeat());
+            StartCoroutine(Final());
         }
     }
 
@@ -29,7 +29,7 @@ public class pulse : MonoBehaviour
         transform.localScale = startSize * pulseSize;
     }
 
-    IEnumerator testBeat()
+    IEnumerator Final()
     {
         while (true)
         {

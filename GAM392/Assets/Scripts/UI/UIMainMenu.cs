@@ -14,6 +14,7 @@ public class UIMainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FindObjectOfType<AudioManager>().Play("m");
         startGame.onClick.AddListener(StartGame);
         endGame.onClick.AddListener(EndGame);
     }   

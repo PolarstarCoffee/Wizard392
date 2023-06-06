@@ -8,6 +8,7 @@ public class Back_press : MonoBehaviour
     public string enteringScene;
     void OnMouseDown()
     {
+        FindObjectOfType<AudioManager>().Play("ex");
         SceneManager.LoadScene(enteringScene);
     }
 }

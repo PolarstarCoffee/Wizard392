@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     public float beatTempo;
     public AudioSource deathSound;
     private int _score;
+  
 
     private void Start()
     {
@@ -33,8 +34,8 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("hit");
             //gameObject.SetActive(false);
-        
             Destroy(gameObject);
+            
             FindObjectOfType<UI_Score>().updateScore();
 
 
